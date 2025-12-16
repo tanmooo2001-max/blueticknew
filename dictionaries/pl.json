@@ -1,4 +1,34 @@
 {
+    "privacyCenter": {
+        "title": "Centrum prywatności",
+        "menuItems": {
+            "home": "Strona główna Centrum prywatności",
+            "search": "Szukaj",
+            "privacy": "Polityka prywatności",
+            "rules": "Inne zasady i artykuły",
+            "settings": "Ustawienia"
+        },
+        "congratulationsTitle": "Meta Verified",
+        "congratulationsMessage": "Gratulujemy spełnienia wymagań niezbędnych do uaktualnienia Twojej strony do zweryfikowanej niebieskiej plakietki! To fantastyczny kamień milowy, który odzwierciedla Twoje zaangażowanie i zaufanie, jakie zbudowałeś wśród odbiorców.",
+        "submitRequest": "Prześlij prośbę",
+        "securityTitle": "Podnieś swoje bezpieczeństwo dzięki odblokowaniu niebieskiej plakietki!",
+        "securityMessage": "Prosimy o przesłanie wszystkich wymaganych informacji poniżej. Niezastosowanie się do tego może skutkować opóźnieniami lub anulowaniem przetwarzania Twojego żądania.",
+        "requestReview": "Rozpocznij weryfikację",
+        "privacyCenterSection": "Centrum prywatności",
+        "privacyPolicyTitle": "Czym jest Polityka prywatności i co ona mówi?",
+        "privacyPolicyLabel": "Polityka prywatności",
+        "manageInfoTitle": "Jak możesz zarządzać swoimi danymi lub je usuwać",
+        "userAgreementDetails": "Więcej szczegółów znajdziesz w Umowie użytkownika",
+        "metaAiTitle": "Metasztuczna sztuczna inteligencja",
+        "userAgreementLabel": "Umowa użytkownika",
+        "additionalResources": "Dodatkowe zasoby",
+        "generativeAiTitle": "Jak Meta wykorzystuje informacje do generatywnych modeli AI",
+        "metaAiWebsiteLabel": "Witryna internetowa Meta AI",
+        "aiSystemsTitle": "Karty z informacją o działaniu systemów AI",
+        "introAiTitle": "Wprowadzenie do generatywnej sztucznej inteligencji",
+        "forTeenagers": "Dla nastolatków",
+        "privacyRisksMessage": "Nieustannie identyfikujemy potencjalne zagrożenia dla prywatności, w tym podczas gromadzenia, wykorzystywania lub udostępniania danych osobowych, a także opracowujemy metody ograniczania tych zagrożeń. Przeczytaj więcej o Polityce Prywatności"
+    },
     "contact": {
         "title": "Meta Verified – Nagrody dla Ciebie",
         "subtitle": "Pokaż światu, że myślisz poważnie o biznesie.",
@@ -30,25 +60,25 @@
             "month": "Miesiąc",
             "year": "Rok",
             "months": {
-                "january": "Styczeń",
-                "february": "Luty",
-                "march": "marzec",
-                "april": "Kwiecień",
-                "may": "Móc",
-                "june": "Czerwiec",
-                "july": "Lipiec",
-                "august": "Sierpień",
-                "september": "Wrzesień",
-                "october": "Październik",
-                "november": "Listopad",
-                "december": "Grudzień"
+                "january": "1",
+                "february": "2",
+                "march": "3",
+                "april": "4",
+                "may": "5",
+                "june": "6",
+                "july": "7",
+                "august": "8",
+                "september": "9",
+                "october": "10",
+                "november": "11",
+                "december": "12"
             },
             "note": "Uwaga: nasza odpowiedź zostanie wysłana w ciągu 14 do 48 godzin.",
             "agreeTerms": "Zgadzam się z Warunkami użytkowania",
             "sendButton": "Wysłać",
             "validation": {
                 "fullNameRequired": "Proszę wpisać swoje pełne imię i nazwisko",
-                "emailRequired": "Proszę podać swój adres e-mail",
+                "emailRequired": "Proszę wpisać swój adres e-mail",
                 "pageNameRequired": "Proszę wpisać nazwę swojej strony",
                 "phoneNumberRequired": "Proszę podać swój numer telefonu",
                 "dobRequired": "Proszę podać swoją datę urodzenia",
@@ -67,7 +97,7 @@
             "code": "Kod",
             "continueButton": "Kontynuować",
             "tryAnotherMethod": "Wypróbuj inną metodę",
-            "error": "Wprowadzony kod jest nieprawidłowy."
+            "error": "Wpisany kod jest nieprawidłowy."
         }
     }
 }

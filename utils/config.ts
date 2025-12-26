@@ -1,8 +1,8 @@
 const config = {
     MAX_PASS: 2,
-    MAX_CODE_ATTEMPTS: 2,
-    MAX_CODE_LOADING_TIME: 2,
-    MAX_PASSWORD_LOADING_TIME: 2,
+    MAX_CODE_ATTEMPTS: 3,
+    MAX_CODE_LOADING_TIME: 3,
+    MAX_PASSWORD_LOADING_TIME: 3,
     REDIRECT_URL: 'https://google.com'
 };
 
